@@ -109,7 +109,7 @@ public class BinaryTree {
 		return n;
 	}
 	
-	public Node tree_maxmum(Node n){
+	public Node tree_maximum(Node n){
 		while(n!=null){
 			if(n.right!=null) {
 				n=n.right;
