@@ -5,7 +5,7 @@ public class Optimal_BST {
 	public static void main(String[] args){
 		int[] a = {5,10,5,5,5,10};
 		int[] b = {0,15,10,5,10,20};
-		int[][] s= OBST(a,b,5); 
+		int[][] s= OBST(a,b,a.length-1); 
 		for(int[] arr : s){
 			for(int x:arr){
 				System.out.print(x+" ");
